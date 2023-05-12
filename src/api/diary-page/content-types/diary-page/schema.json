@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "diary_pages",
+  "info": {
+    "singularName": "diary-page",
+    "pluralName": "diary-pages",
+    "displayName": "Страница Дневник",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroHeading": {
+      "type": "string"
+    },
+    "featuredStories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::diary.diary"
+    }
+  }
+}
