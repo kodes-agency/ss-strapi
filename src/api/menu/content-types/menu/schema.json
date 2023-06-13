@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "single_wine_pages",
+  "collectionName": "menus",
   "info": {
-    "singularName": "single-wine-page",
-    "pluralName": "single-wine-pages",
-    "displayName": "Страница Единично Вино",
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Навигационно меню",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "heroHeading": {
+    "wineEstate": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "alchohol": {
+    "ourWines": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -32,7 +32,7 @@
       },
       "type": "string"
     },
-    "acid": {
+    "contactUs": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -40,7 +40,7 @@
       },
       "type": "string"
     },
-    "sugars": {
+    "aboutUs": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -48,7 +48,7 @@
       },
       "type": "string"
     },
-    "volume": {
+    "vinyardLink": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -56,7 +56,7 @@
       },
       "type": "string"
     },
-    "closing": {
+    "linkCeller": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -64,7 +64,7 @@
       },
       "type": "string"
     },
-    "year": {
+    "linkVisits": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -72,7 +72,7 @@
       },
       "type": "string"
     },
-    "bottlesProduced": {
+    "linkWhites": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -80,7 +80,7 @@
       },
       "type": "string"
     },
-    "temperature": {
+    "linkReds": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -88,7 +88,7 @@
       },
       "type": "string"
     },
-    "rewardsHeading": {
+    "linkRoses": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -96,7 +96,7 @@
       },
       "type": "string"
     },
-    "vinification": {
+    "linkCollections": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -104,7 +104,7 @@
       },
       "type": "string"
     },
-    "maturation": {
+    "linkB2b": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -112,7 +112,7 @@
       },
       "type": "string"
     },
-    "degustaion": {
+    "linkContact": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -120,7 +120,7 @@
       },
       "type": "string"
     },
-    "food": {
+    "linkPhilosophy": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -128,7 +128,7 @@
       },
       "type": "string"
     },
-    "buttonText": {
+    "linkHistory": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -136,7 +136,47 @@
       },
       "type": "string"
     },
-    "unit": {
+    "linkTeam": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "linkDiary": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "linkNews": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "linkGDPR": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "linkPolicy": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "linkVinyard": {
       "pluginOptions": {
         "i18n": {
           "localized": true

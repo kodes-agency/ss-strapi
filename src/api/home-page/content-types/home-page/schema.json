@@ -64,14 +64,6 @@
         }
       }
     },
-    "aboutText": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "aboutButton": {
       "type": "string",
       "pluginOptions": {
@@ -278,6 +270,19 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::new.new"
+    },
+    "aboutText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "single_wine_pages",
+  "collectionName": "cookies_gdprs",
   "info": {
-    "singularName": "single-wine-page",
-    "pluralName": "single-wine-pages",
-    "displayName": "Страница Единично Вино",
+    "singularName": "cookies-gdpr",
+    "pluralName": "cookies-gdprs",
+    "displayName": "Бисквитки",
     "description": ""
   },
   "options": {
@@ -16,127 +16,100 @@
     }
   },
   "attributes": {
-    "heroHeading": {
+    "cookieHeading": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "alchohol": {
+    "cookieDescription": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "acid": {
+    "cookieAcceptLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "sugars": {
+    "cookieRejectLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "volume": {
+    "cookieCloseLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "closing": {
+    "cookieNecessaryLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "year": {
+    "cookieNecessaryDescription": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "bottlesProduced": {
+    "cookieTrackingLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "temperature": {
+    "cookieTrackingDescription": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "rewardsHeading": {
+    "cookieAnalyticsLabel": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "vinification": {
+    "cookieAnalyticsDescription": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
-    "maturation": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "degustaion": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "food": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "buttonText": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "unit": {
+    "cookieSettings": {
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {
     "i18n": {
@@ -61,7 +61,7 @@
       "repeatable": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "component": "wine-profile.wine-details"
@@ -106,6 +106,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::wine-type.wine-type"
+    },
+    "harvestYear": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "date"
     }
   }
 }
