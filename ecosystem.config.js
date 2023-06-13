@@ -1,7 +1,7 @@
 module.exports = {
       apps: [
         {
-          name: 'app',
+          name: 'Santa-Sarah-Backend',
           script: 'yarn',
           args: 'develop',
         },
